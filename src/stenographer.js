@@ -1311,7 +1311,7 @@ try {
   const XPATH_SELECTOR_PARTICIPANTS = `//button[@aria-label='Show everyone']`;
 
   const XPATH_SELECTOR_CHAT = `//button[@aria-label='Chat with everyone']`;
-    });
+    })();
 
 } catch (e) {
   console.error('init error', e);
